@@ -1,0 +1,189 @@
+
+Intruction Register IR: PASS R00 ;
+Correct password ...Jacket unlocked
+Status of General Purpose Registers is:
+	R00=5 	R01=0 	R02=0 	R03=0 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 2
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: MOV R03 2 ;
+Status of General Purpose Registers is:
+	R00=5 	R01=0 	R02=0 	R03=2 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 3
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: MUSI R01 ;
+Song is found and it is about to play
+Status of General Purpose Registers is:
+	R00=5 	R01=2 	R02=0 	R03=2 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 4
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: DEC R03 ;
+Status of General Purpose Registers is:
+	R00=5 	R01=2 	R02=0 	R03=1 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 5
+	ALU Signal: 010
+
+-----------------------------------------------------------------------------------------------------------------------
+JMP R03 Label1 ;
+Status of General Purpose Registers is:
+	R00=5 	R01=2 	R02=0 	R03=1 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 3
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: MUSI R01 ;
+Song is found and it is about to play
+Status of General Purpose Registers is:
+	R00=5 	R01=3 	R02=0 	R03=1 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 4
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: DEC R03 ;
+Status of General Purpose Registers is:
+	R00=5 	R01=3 	R02=0 	R03=0 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 5
+	ALU Signal: 010
+
+-----------------------------------------------------------------------------------------------------------------------
+JMP R03 Label1 ;
+Status of General Purpose Registers is:
+	R00=5 	R01=3 	R02=0 	R03=0 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 1
+	Program Counter: 6
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: MOV R02 5 ;
+Status of General Purpose Registers is:
+	R00=5 	R01=3 	R02=5 	R03=0 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 7
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: MOV R03 3 ;
+Status of General Purpose Registers is:
+	R00=5 	R01=3 	R02=5 	R03=3 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 8
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: DIS R02 R03 ;
+The distance between source and destination is:141
+Status of General Purpose Registers is:
+	R00=5 	R01=3 	R02=2 	R03=3 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 9
+	ALU Signal: 010 and 001
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: CRGE R00 ;
+Your mobile is greater than 45 percent charge hence no charging required!
+Status of General Purpose Registers is:
+	R00=7 	R01=3 	R02=2 	R03=3 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 11
+	ALU Signal: 001
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: TEMP R01 ;
+The temp is increased from 11 to  the new temperature is:16
+Status of General Purpose Registers is:
+	R00=7 	R01=1 	R02=2 	R03=3 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 12
+	ALU Signal: 001
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: CONN R02 ;
+contact is found in favourite contact list
+
+Status of General Purpose Registers is:
+	R00=7 	R01=1 	R02=1 	R03=3 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 13
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: SLE ;
+Take rest
+
+Status of General Purpose Registers is:
+	R00=7 	R01=1 	R02=1 	R03=3 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 14
+
+
+-----------------------------------------------------------------------------------------------------------------------
+Intruction Register IR: LOSS ;
+phone not lost
+
+Status of General Purpose Registers is:
+	R00=7 	R01=1 	R02=1 	R03=3 
+
+Status of Special Purpose Registers is:
+	Negative Flag: 0
+	Zero Flag: 0
+	Program Counter: 15
+
+
+-----------------------------------------------------------------------------------------------------------------------

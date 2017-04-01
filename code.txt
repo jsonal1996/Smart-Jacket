@@ -1,0 +1,15 @@
+PASS R00 ;
+MOV R03 2 ;
+Label1:  
+MUSI R01 ;
+DEC R03 ;
+JMP R03 Label1 ;
+MOV R02 5 ;
+MOV R03 3 ;
+DIS R02 R03 ;
+CRGE R00 ;
+TEMP R01 ;
+CONN R02 ;
+SLE ;
+LOSS ;
+HALT ;
